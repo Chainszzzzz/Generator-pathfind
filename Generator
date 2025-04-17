@@ -74,13 +74,6 @@ while true do
 end
 end)
 
--- Hopping Handler
-task.spawn(function()
-wait(20*60)
-local ts = game:GetService("TeleportService")
-ts:Teleport(game.placeId)
-end)
-
 -- Main loop
 while true do
 if isInGame then
